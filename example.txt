@@ -1,0 +1,65 @@
+# Custom level file for the "Aim Trainer" program.
+# Lines that are blank or begin with # are ignored.
+
+# Available actions:
+# RANDOM -> spawn a box with a random dimension, position and fade time.
+# BOX -> spawn a box for the to click before it fades into the background.
+#      arguments -> <size: int>, <x: float (0 to 0.9>, <y: float (0 to 0.9)>, <time: float>
+#      example -> BOX: 2, 0.45, 0.45, 1.25
+# WAIT -> pause for a certain amount of time.
+#      arguments -> <seconds: float>
+#      example -> WAIT: 1.25
+# FOREGROUND - > change the colour of the boxes.
+#      arguments -> <colour: hex/name>
+#      example -> FOREGROUND: #FFFFFF
+# BACKGROUND -> change the colour of the background.
+#      arguments -> <colour: hex/name>
+#      example -> BACKGROUND: #000000
+# LIVES -> define the number of lives to start the game with.
+#      arguments -> <amount: int>
+#      example -> LIVES: 5
+
+LIVES: 10
+RANDOM
+BOX: 2, 0.4, 0.7, 1.4
+WAIT: 0.42
+BOX: 3, 0.2, 0.4, 1.25
+BOX: 1, 0.1, 0.5, 1.92
+BOX: 2, 0.1, 0.2, 2.12
+WAIT: 1.52
+BOX: 3, 0.2, 0.4, 1.25
+BOX: 1, 0.1, 0.5, 1.92
+WAIT: 0.12
+RANDOM
+WAIT: 0.25
+RANDOM
+RANDOM
+WAIT: 0.25
+RANDOM
+FOREGROUND: #1abc9c
+WAIT: 0.54
+BOX: 5, 0.3, 0.5, 1.29
+BOX: 4, 0.1, 0.7, 1.23
+BACKGROUND: #130f40
+BOX: 5, 0.1, 0.3, 0.67
+BOX: 1, 0.9, 0.5, 1.29
+WAIT: 1.54
+BOX: 2, 0.2, 0.3, 1.53
+BOX: 3, 0.8, 0.5, 2.14
+BOX: 2, 0.7, 0.3, 1.75
+WAIT: 1.2
+RANDOM
+RANDOM
+RANDOM
+RANDOM
+WAIT: 0.92
+RANDOM
+RANDOM
+RANDOM
+WAIT: 0.15
+RANDOM
+RANDOM
+RANDOM
+RANDOM
+RANDOM
+RANDOM
